@@ -11,7 +11,7 @@ permissions:
 
 env:
   IMAGE_NAME: chimdi247/dotnet-mongo-crud
-  TAG: latest
+  TAG: ${{ github.sha }}
 
 jobs:
   build-and-deploy:
