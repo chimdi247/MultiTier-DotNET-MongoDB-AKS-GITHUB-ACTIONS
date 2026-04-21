@@ -117,7 +117,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: chimdi247/dotnet-mongo-crud:latest
+          image: chimdi247/dotnet-mongo-crud:${IMAGE_TAG}
           ports:
             - containerPort: 5035
           env:
